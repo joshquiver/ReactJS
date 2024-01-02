@@ -1,0 +1,202 @@
+/*
+.loginBody {
+  position: fixed;
+  height: 100vh;
+}
+
+.form {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.13);
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(47, 227, 243, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 20px;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+  padding: 0.7em 2em;
+  border-radius: 1px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  transition: box-shadow 0.25s;
+  color: white;
+
+}
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.loginBody {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Make the body take up the full viewport height */
+  background:  url(images/pools.jpg) center/cover no-repeat; /* Replace 'your-image.jpg' with the path to your image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat:no-repeat;
+}
+
+.title {
+  font-size: 110px;
+  font-family:'Segoe Script', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold; /* Set the font weight to bold */
+  text-align: center;
+  margin-bottom: 20px;
+  user-select:auto;
+ 
+  background-image: url(/images/blue.jpg);
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  
+  
+  font-weight: 700;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  text-shadow: 2px 2px 4px rgba(44, 26, 110, 0.425);
+  
+}
+
+
+.label2 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 48px;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+
+  
+  background-image: url(/images/sand.jpg);
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 
+  1px 15px 10px rgba(16, 16, 16, 0.4),
+  1px 25px 50px rgba(16, 16, 16, 0.2);
+}
+
+.background {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #f397ff8c, #20adff46); 
+  overflow: hidden;
+}
+
+.form {
+  text-align: left;
+  width: 350px;
+  height: 270px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(25, 0, 165, 0.253);
+ backdrop-filter: blur(20px);
+  border: 5px solid rgba(245, 202, 253, 0.1);
+  box-shadow: 0 0 100px rgb(0, 9, 131);
+  justify-content: center;
+/*  background-image: url('/images/kissbone-cove-southern-leyte-1607796251.jpg');*/
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-family: 'cursive', 'Times New Roman', Times, serif;
+}
+
+.input {
+  /* Your input styles */
+  width: 94%; 
+  padding: 10px; 
+  margin-bottom: 16px;
+}
+
+.error {
+  /* Your error message styles */
+  color: rgb(197, 10, 10);
+  text-align: center;
+  margin-top: 1px; /* Add some spacing above the error message */
+}
+
+.shape {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+
+
+.background .shape.background {
+  top: 30%;
+  left: 10%;
+}
+
+.background .shape.button {
+  top: 70%;
+  left: 80%;
+}
+
+
+
+.button {
+  /* Your button styles */
+  background-color: linear-gradient(45deg, #304fb4, #7bf0ff);
+  color: #000000;
+  padding: 10px 150px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-image 0.25s;
+  margin-right: 20px;
+}
+
+
+.button:hover {
+  background-image: linear-gradient(45deg, #304fb4, #7bf0ff);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  transition: box-shadow 0.25s;
+  color: white;
+  outline: none;
+}
+
+.buttons{
+  background-color: linear-gradient(45deg, #304fb4, #7bf0ff);
+  color: #000000;
+  padding: 10px 150px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-image 0.25s;
+  margin-top: 100px;
+}
+

@@ -1,0 +1,257 @@
+/* settings.css */
+
+/* Container styles 
+
+.settings-container {
+    display:flex;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .food-price-container {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    color:black;
+    display:block;
+}
+
+  
+.settings-container food-price-container label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .food-price-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+
+.price-containers-wrapper {
+    display: flex;
+}
+
+  
+
+ 
+.settings-container room-price-container label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+  .room-price-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+*/
+
+  /* Button styles 
+  .button-container {
+    display: flex;
+    gap: 20px;
+    padding: 8px;
+    justify-content: center;
+    margin-left: 50px;
+  }
+  
+
+  
+.delete-button:hover {
+  background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  transition: box-shadow 0.25s;
+  color: white;
+  outline: none;
+}
+
+.update-button:hover {
+  background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  transition: box-shadow 0.25s;
+  color: white;
+  outline: none;
+}
+
+.save-button:hover {
+  background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  transition: box-shadow 0.25s;
+  color: white;
+  outline: none;
+}
+  */
+  /* Table styles 
+  .table-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color:black;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex: 1;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 3px solid #e8b1fa;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .save-button{
+  background: linear-gradient(45deg, #add4ee, #ab7ac0);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-image 0.25s;
+  }
+  
+  .update-button {
+    background: linear-gradient(45deg, #add4ee, #ab7ac0);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-image 0.25s;
+  }
+  
+  .delete-button {
+    background: linear-gradient(45deg, #add4ee, #ab7ac0);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-image 0.25s;
+  }
+
+
+  h3{
+    font-family: 'Segoe Script', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+    padding-bottom: 5px; 
+    text-align: center;
+    background: linear-gradient(45deg, #59e2fa, #6c97e785);
+    }
+
+
+    .food-price-container,
+.room-price-container {
+  width: 300px; 
+  margin-left: 20px; 
+}
+*/
+
+/* Main container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+/* Left container for tables */
+.table-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 3px solid #e8b1fa;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #ffffff;
+}
+
+/* Right container for form inputs and buttons */
+.form-container {
+  width: 300px;
+}
+
+/* Input styles */
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+}
+
+/* Button styles */
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Add this line to center items horizontally */
+  justify-content: space-around;
+  padding: 8px;
+  background:  url(images/pools.jpg) center/cover no-repeat; /* Replace 'your-image.jpg' with the path to your image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat:no-repeat;
+}
+
+
+.save-button,
+.update-button,
+.delete-button {
+  background: linear-gradient(45deg, #add4ee, #ab7ac0);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  transition: background-image 0.25s;
+}
+
+.save-button:hover,
+.update-button:hover,
+.delete-button:hover {
+  background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  transition: box-shadow 0.25s;
+  color: white;
+  outline: none;
+}
+
+/* Heading styles */
+h3 {
+  font-family: 'Segoe Script', Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  text-align: center;
+  background: linear-gradient(45deg, #59e2fa, #6c97e785);
+}

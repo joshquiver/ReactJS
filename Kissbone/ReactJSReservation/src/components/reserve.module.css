@@ -1,0 +1,154 @@
+  .clearfix {
+    margin-bottom: 10px;
+  }
+  
+  .tables {
+    float: left;
+    margin-right: 20px;
+    
+  }
+  
+  .right-form {
+    float: left;
+  }
+  
+  .tables label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .tables table {
+    border-collapse: collapse;
+    width: 50%;
+
+    
+  }
+  
+  .tables th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tables th {
+    background-color: #f2f2f2;
+  }
+  
+  button-container button {
+    clear: both;
+    margin-top: 20px;
+    background-color: #f1d0fb;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-image 0.25s;
+    
+  }
+  
+
+  button:hover {
+    background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.986);
+    transition: box-shadow 0.25s;
+    color: white;
+    outline: none;
+}
+
+  input,
+select{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 3px solid #efb9fd86;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-family: 'Arial NArrow', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+  tbody tr:hover {
+    transition: background-color 0.2s 0s linear, opacity 0.3s linear;
+    background-color: rgba(93, 236, 255, 0.123);
+    opacity: 1;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+  }
+  
+  td {
+    transition: transform 0.4s 0.2s ease-out;
+    transform-origin: center left;
+  }
+  
+  td:hover {
+    transition: transform 0.4s ease-out;
+    transform: scale(1.05);
+  }
+  
+  .tables {
+    width: 90%;
+    margin: 0 5%;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 0.5em;
+    font-family: 'Arial NArrow', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+
+    
+  }
+
+  h2{
+  font-family: 'Segoe Script', Arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 15px;
+  border-top: linear-gradient(45deg, #7c7c7c, #ffffffbd) ;
+  border-bottom: linear-gradient(45deg, #7c7c7c, #ffffffbd); /* Add a border line at the bottom */
+  padding-bottom: 5px; 
+  text-align: center;
+  background: linear-gradient(45deg, #59e2fa, #6c97e785);
+
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+
+  label{
+    font-family: 'Arial NArrow', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+  }
+
+
+  .btnContainer{
+    text-align: center;
+  }
+
+  .buttonSubmit button{
+    background-color: #4caf50; /* Green background color */
+    color: rgb(255, 255, 255); /* White text color */
+    padding: 15px 30px; /* Padding around the text */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 5px; 
+    font-size: 18px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(45deg, #add4ee, #ab7ac0);
+  }
+
+  
+  .buttonSubmit button:hover {
+    background-image: linear-gradient(45deg, #304fb4, #b06ab3);
+    box-shadow: 5px 5px 15px rgba(212, 0, 202, 0.986);
+    transition: box-shadow 0.25s;
+    color: white;
+    outline: none;
+}
